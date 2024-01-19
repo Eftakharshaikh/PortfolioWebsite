@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('your-background-image.jpg');
+    background-image: url('Image/22911.jpg');
     background-size: cover;
     color: #FAEF5D;
 }
@@ -122,9 +122,19 @@ main {
     color: #FAEF5D;
 }
 
-h2, h3 {
+main h2 {
     color: #FF004D;
-    margin-bottom: 0.5em;
+    text-align: left;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #FF004D;
+    padding-bottom: 5px;
+}
+
+main h3 {
+    color: #7E2553;
+    margin-top: 0;
+    font-size: 1.5em;
+    padding-bottom: 5px;
 }
 
 p {
@@ -191,4 +201,15 @@ footer {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education img {
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.education img:hover {
+    transform: scale(1.10);
 }
