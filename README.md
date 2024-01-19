@@ -14,7 +14,7 @@ cd path/to/your/directory
 ### Step 4: Clone the Repository
 Run the following command to clone the "PortfolioWebsite" repository:
 ```bash
-git clone https://eftakharshaikh.github.io/PortfolioWebsite.git
+git clone https://github.com/Eftakharshaikh/PortfolioWebsite.git
 ```
 ### Step 5: Navigate to the Cloned Directory
 Move into the cloned "PortfolioWebsite" directory using the cd command:
