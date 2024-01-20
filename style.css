@@ -92,6 +92,26 @@ SIDEBAR START
 #sidebar .sidebar-social-icon i:hover {
   background-color: var(--color-2);
 }
+
+#sidebar .sidebar-copy-right {
+  /* border: 1px solid #fff; */
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sidebar .sidebar-copy-right p {
+  color: var(--color-3);
+  text-align: center;
+  font-weight: 100;
+  font-size: 1rem;
+}
 /********************************************************************************************
 SIDEBAR END
 *********************************************************************************************/
