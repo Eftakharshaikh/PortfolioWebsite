@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--open-sans);
+}
+:root {
+  --open-sans: "Open Sans", sans-serif;
+  --poppins: "Poppins", sans-serif;
+  --raleway: "Raleway", sans-serif;
+  --color-1: #040b14;
+  --color-2: #149ddd;
+}
+
+body h1 {
+  font-family: var(--open-sans);
+}
