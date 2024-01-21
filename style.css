@@ -443,6 +443,217 @@ section 3 START
   align-items: center;
   justify-content: center;
 }
+
 /********************************************************************************************
 section 3 END
+*********************************************************************************************/
+
+/********************************************************************************************
+section 4 START
+*********************************************************************************************/
+
+#section4 {
+  /* border: 1px solid #000; */
+  width: 100%;
+  min-height: 100dvh;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-self: center;
+}
+
+#section4 h1 {
+  /* border: 1px solid #000; */
+  color: var(--color-6);
+  font-family: var(--raleway);
+  padding-top: 50px;
+  padding-bottom: 15px;
+  position: relative;
+  text-align: left;
+  font-family: var(--raleway);
+}
+
+#section4 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 6%;
+  height: 3px;
+  background-color: var(--color-2);
+}
+
+#section4 h2 {
+  /* border: 1px solid #000; */
+  color: var(--color-6);
+  font-family: var(--raleway);
+  font-size: 1.5rem;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  position: relative;
+  text-align: left;
+  font-family: var(--raleway);
+}
+
+#section4 h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 25%;
+  height: 3px;
+  background-color: var(--color-2);
+}
+
+#section4 p {
+  margin-top: 20px;
+  color: var(--color-5);
+  font-weight: 400;
+}
+
+.section4-left {
+  /* border: 1px solid #000; */
+  width: 60%;
+  height: 39rem;
+}
+
+.section4-right {
+  /* border: 1px solid #000; */
+  width: 60%;
+  height: 39rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-right img {
+  /* width: 100%; */
+  height: 95%;
+  object-fit: contain;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 50px 0px rgba(128, 128, 128, 0.315);
+}
+
+/********************************************************************************************
+section 4 END
+*********************************************************************************************/
+
+/********************************************************************************************
+section 5 START
+*********************************************************************************************/
+
+#section5 {
+  width: 100%;
+  min-height: 150dvh;
+  background-color: var(--color-7);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#section5 h1 {
+  /* border: 1px solid #000; */
+  color: var(--color-6);
+  font-family: var(--raleway);
+  padding-top: 50px;
+  padding-bottom: 15px;
+  position: relative;
+  text-align: left;
+  font-family: var(--raleway);
+}
+
+#section5 h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 6%;
+  height: 3px;
+  background-color: var(--color-2);
+}
+
+#section5 h2 {
+  /* border: 1px solid #000; */
+  color: var(--color-6);
+  font-family: var(--raleway);
+  font-size: 1.5rem;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  position: relative;
+  text-align: left;
+  font-family: var(--raleway);
+}
+
+#section5 h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 5%;
+  height: 3px;
+  background-color: var(--color-2);
+}
+
+#section5 li {
+  margin-top: 20px;
+  color: var(--color-5);
+  font-weight: 400;
+}
+
+#section5 h4 {
+  /* border: 1px solid #000; */
+  color: var(--color-6);
+  font-family: var(--raleway);
+  font-size: 1.2rem;
+  position: relative;
+  padding-top: 10px;
+}
+
+#section5 .project-main-div {
+  /* border: 1px solid #000; */
+  width: 100%;
+  height: 28rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section5 .project-main-div .project-div-left {
+  /* border: 1px solid #000; */
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#section5 .project-main-div .project-div-right {
+  /* border: 1px solid #000; */
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#section5 .project-main-div .project-div-right img,
+#section5 .project-main-div .project-div-left img {
+  width: 100%;
+  object-fit: contain;
+  scale: 0.8;
+  transition: 0.6s;
+}
+
+#section5 .project-main-div .project-div-right img:hover,
+#section5 .project-main-div .project-div-left img:hover {
+  scale: 1;
+}
+/********************************************************************************************
+section 5 END
 *********************************************************************************************/
