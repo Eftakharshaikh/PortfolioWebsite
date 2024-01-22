@@ -179,6 +179,7 @@ section 1 start
   width: 100%;
   height: 100dvh;
   position: relative;
+  padding-top: 100px;
 
   background-image: linear-gradient(
       0deg,
@@ -201,7 +202,6 @@ section 1 start
   font-size: 4rem;
   color: var(--color-3);
   padding-left: 50px;
-  padding-top: 250px;
   font-family: var(--raleway);
 }
 
