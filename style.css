@@ -268,7 +268,7 @@ section 2 start
 
 #section2 {
   width: 100%;
-  min-height: 100dvh;
+  /* min-height: 100dvh; */
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -375,7 +375,7 @@ section 3 START
 
 #section3 {
   width: 100%;
-  min-height: 100dvh;
+  /* min-height: 100dvh; */
   background-color: var(--color-7);
   padding-left: 30px;
   padding-right: 30px;
@@ -481,7 +481,7 @@ section 4 START
 #section4 {
   /* border: 1px solid #000; */
   width: 100%;
-  min-height: 100dvh;
+  /* min-height: 100dvh; */
   padding-left: 30px;
   padding-right: 30px;
 
@@ -572,7 +572,7 @@ section 5 START
 
 #section5 {
   width: 100%;
-  min-height: 150dvh;
+  /* min-height: 150dvh; */
   background-color: var(--color-7);
   padding-left: 30px;
   padding-right: 30px;
