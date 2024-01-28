@@ -49,6 +49,10 @@ body {
 SIDEBAR START 
 *********************************************************************************************/
 
+#sidebar::-webkit-scrollbar {
+  display: none;
+}
+
 #sidebar {
   border: 1px solid #000;
   background-color: var(--color-1);
